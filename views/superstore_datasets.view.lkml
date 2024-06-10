@@ -2,7 +2,7 @@
 view: superstore_datasets {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
-  sql_table_name: `dwh_dla_acl.superstore_datasets`
+  sql_table_name: `demo_dataset.superstore_datasets`
     ;;
   # No primary key is defined for this view. In order to join this view in an Explore,
   # define primary_key: yes on a dimension that has no repeated values.
