@@ -3,7 +3,7 @@ view: superstore_datasets {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
 # <<<<<<< HEAD
-  sql_table_name: `dla_data_governance.superstore_datasets` ;;
+  sql_table_name: `explore_assistant.superstore_datasets` ;;
 #     ;;
 # >>>>>>> branch 'master' of ../../bare_models/genai_demo.git
 #   # No primary key is defined for this view. In order to join this view in an Explore,
