@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "renold-belajar"
+connection: "genai-connection"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -27,3 +27,6 @@ persist_with: genai_demo_default_datagroup
 
 explore: superstore_datasets {}
 
+explore: explore_assistant_examples {}
+
+explore: explore_assistant_refinement_examples {}
