@@ -30,3 +30,5 @@ explore: superstore_datasets {}
 explore: explore_assistant_examples {}
 
 explore: explore_assistant_refinement_examples {}
+
+explore: explore_assistant_samples {}
