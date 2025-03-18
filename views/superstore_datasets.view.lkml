@@ -245,13 +245,13 @@ view: superstore_datasets {
   #   sql: ${TABLE}.total_cost ;;
   # }
 
-  dimension: total_gmv {
-    type: number
+  measure: total_gmv {
+    type: sum
     sql: ${TABLE}.total_gmv ;;
   }
 
-  dimension: total_profit {
-    type: number
+  measure: total_profit {
+    type: sum
     sql: ${TABLE}.total_profit ;;
   }
 
@@ -327,7 +327,7 @@ view: superstore_datasets {
 
 
   measure: mtotal_gmv {
-    type: sum
+    type: number
     drill_fields: [region, country, mtotal_gmv]
     value_format: " [>=1000000]0.00,,\"M\";[>=1000]0.00,\"K\";0"
     sql: ${total_gmv} ;;
